@@ -5,6 +5,8 @@ import java.util.Arrays;
 import java.util.List;
 
 public interface Const {
+    //服务器host
+    public static final String SERVER_HOST = "121.40.235.142:3306/";
     //字体
     public static final int FRONT_SIZE_1 = 22;
     public static final int FRONT_SIZE_2 = 18;
@@ -44,7 +46,7 @@ public interface Const {
     public static final String MY_DATABASE = "student";
 
     public static final Rectangle LOGIN_TITLE_RECT = new Rectangle(0,100,800,100);
-    public static final Rectangle EDITOR_LABEL_RECT = new Rectangle(680,530,100,30);
+    public static final Rectangle EDITOR_LABEL_RECT = new Rectangle(0,530,100,30);
     public static final Rectangle VERSION_LABEL_RECT = new Rectangle(720,530,100,30);
     public static final Rectangle LOGIN_BUTTON_RECT = new Rectangle(320,450,150,50);
     public static final List<Rectangle> LOGIN_LABEL_RECT = Arrays.asList(

@@ -7,6 +7,8 @@ import java.sql.Statement;
 import java.util.ArrayList;
 import java.util.List;
 
+import static com.mysql.connect1.Const.SERVER_HOST;
+
 public class MysqlConnect {
     private String dbName;//数据库名
     private String user;//用户
@@ -31,7 +33,7 @@ public class MysqlConnect {
         user = InfoText.get(0);//用户
         password = InfoText.get(1);//密码
         dbName = InfoText.get(2);//数据库名
-        dbUrl = "jdbc:mysql://121.40.235.142:3306/" + dbName;
+        dbUrl = "jdbc:mysql://" + SERVER_HOST + dbName;
         Connection connection = null;
         try {
             Class.forName(JDBC_DRIVER);

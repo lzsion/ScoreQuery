@@ -35,7 +35,7 @@ public class MainFrame extends JFrame {
         nowPanelIndex = Const.LOGIN_PANEL_INDEX;
         lastPanelIndex = Const.LOGIN_PANEL_INDEX;
 
-//        login.quickLogin();//快速登录 注释!!!!!!!!!!!!!!!!!!!!!
+//        login.quickLogin();//快速登录 测试用 注释!!!!!!!!!!!!!!!!!!!!!
 
         this.setTitle(Const.TITLE_TEXT.get(nowPanelIndex));
         this.setVisible(true);

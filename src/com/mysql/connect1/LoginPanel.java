@@ -6,6 +6,7 @@ public class LoginPanel extends JFrame {
     JPanel loginPanel = new JPanel();
     MysqlConnect mysqlConnect;
 
+    JLabel editorLabel = new JLabel(Const.EDITOR_TEXT);
     JLabel titleLabel = new JLabel(Const.LOGIN_FRAME_LABEL_TEXT);//标题
     JLabel versionLabel = new JLabel(Const.VERSION_TEXT);//版本号
     JLabel userLabel = new JLabel(Const.LOGIN_LABEL_TEXT.get(0));//用户名
@@ -38,6 +39,9 @@ public class LoginPanel extends JFrame {
         versionLabel.setFont(Const.FONT_OPTION_2);
         versionLabel.setBounds(Const.VERSION_LABEL_RECT);
         loginPanel.add(versionLabel);
+        editorLabel.setFont(Const.FONT_OPTION_2);
+        editorLabel.setBounds(Const.EDITOR_LABEL_RECT);
+        loginPanel.add(editorLabel);
         //用户label
         userLabel.setFont(Const.FONT_OPTION_1);
         userLabel.setBounds(Const.LOGIN_LABEL_RECT.get(0));
