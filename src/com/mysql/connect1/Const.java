@@ -6,7 +6,7 @@ import java.util.List;
 
 public interface Const {
     //服务器host
-    public static final String SERVER_HOST = "121.40.235.142:3306/";
+    public static final String SERVER_HOST = "";
     //字体
     public static final int FRONT_SIZE_1 = 22;
     public static final int FRONT_SIZE_2 = 18;
